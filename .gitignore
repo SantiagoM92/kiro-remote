@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.aws/
+.secrets/
+*.pem
+*.key
+*.secret
+
+# Logs and local runtime files
+*.log
+*.pid
+*.sock
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.iml
+
+# Java/Maven build artifacts
+target/
+*.class
+*.jar
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local test output
+reports/
